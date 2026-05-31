@@ -1,3 +1,4 @@
+[![CI](https://github.com/Arvuno/rustatio/actions/workflows/ci.yml/badge.svg)](https://github.com/Arvuno/rustatio/actions)
 <div align="center">
   <img src="rustatio-desktop/icons/icon.png" alt="Rustatio Logo" width="128" height="128">
 </div>
