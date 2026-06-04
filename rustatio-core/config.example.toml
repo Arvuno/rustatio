@@ -1,0 +1,27 @@
+# Rustatio configuration example
+# Copy this file to ~/.config/rustatio/config.toml and edit values.
+# All keys are optional — defaults shown below will be used for any omitted key.
+
+[client]
+# Which BitTorrent client to emulate: "qbittorrent" | "utorrent" | "transmission" | "deluge" | "bittorrent"
+default_type = "qbittorrent"
+# Local listening port announced to trackers
+default_port = 6881
+# Number of peers requested per announce
+default_num_want = 50
+
+[faker]
+# Upload rate in KB/s
+default_upload_rate = 50.0
+# Download rate in KB/s
+default_download_rate = 100.0
+# Interval between tracker announces, in seconds
+default_announce_interval = 1800
+# How often the UI refreshes stats, in seconds
+update_interval = 5
+
+[ui]
+window_width = 1200
+window_height = 800
+dark_mode = true
+show_logs = false
